@@ -59,9 +59,19 @@ header{
 
 .container p{
     font-size: 25px;
+    margin: 0 30px;
+    padding: 20px;
 }
 
-.container #uno, #enmediio, #fin, .form{
+.container #uno, #enmediio, #fin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container .form{
     display: flex;
     flex-direction: column;
     justify-content: center;
