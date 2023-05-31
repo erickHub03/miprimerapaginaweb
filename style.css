@@ -1,0 +1,233 @@
+:root{
+ --principal: #025E73;
+ --secundario: #011F26;
+--gris: #A5A692;
+--blanco:#BFB78F;
+--terciario:#F2A71B;
+}
+html{
+    margin: auto;
+}
+
+body{
+    font-family: helvetica;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--secundario);
+    height: 100%;
+    align-items: center;
+    padding: 10px;
+}
+
+.nav{
+    font-size: 20px;
+
+}
+
+.nav p{
+
+    display: flex;
+    align-items: center;
+    color: var(--terciario);
+    
+}
+
+.menu{
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.menu:hover{
+    color: cadetblue;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h1{
+    font-size: 75px;
+}
+
+.container p{
+    font-size: 25px;
+}
+
+.container #uno, #enmediio, #fin, .form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@media(max-width: 700px){
+    header{
+        flex-direction: column;
+    }
+}
+
+.video{
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+iframe{
+    margin: 15px;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 2px solid #000000;
+    -webkit-box-shadow: -1px -1px 22px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px -1px 22px -3px rgba(0,0,0,0.75);
+    box-shadow: -1px -1px 22px -3px rgba(0,0,0,0.75);
+}
+
+fieldset{
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 2px solid #000000;
+    -webkit-box-shadow: -1px -1px 22px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px -1px 22px -3px rgba(0,0,0,0.75);
+    box-shadow: -1px -1px 22px -3px rgba(0,0,0,0.75);
+}
+
+.form{
+    margin: 30px;
+    padding: 20px;
+}
+
+label{
+    font-size: 20px;
+    margin: 5px;
+    display: flex;
+
+}
+
+input {
+    border: 1px solid;
+    border-radius: 5px;
+    width: 100%;
+    height: 20px;
+}
+
+.bienvenidos{
+    text-align: center;
+}
+
+.img{
+    margin: 10px;
+    display: flex;
+
+}
+
+img{
+    background-repeat: no-repeat;
+    margin: 10px;
+    width: 50%;
+}
+
+footer{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    background-color: var(--gris);
+}
+
+.boton{
+    border: none;
+    background-color: var(--terciario);
+    height: 40px;
+    width: 130px;
+    font-size: medium;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.boton:hover{
+    background-color: var(--secundario);
+    color: var(--blanco);
+}
+
+/* .sidebar .menu-bar .mode{
+    border-radius: 6px;
+    background-color: var(--primary-color-light);
+    position: relative;
+    transition: var(--tran-05);
+}
+
+.menu-bar .mode .sun-moon{
+    height: 50px;
+    width: 60px;
+}
+
+.mode .sun-moon i{
+    position: absolute;
+}
+.mode .sun-moon i.sun{
+    opacity: 0;
+}
+body.dark .mode .sun-moon i.sun{
+    opacity: 1;
+}
+body.dark .mode .sun-moon i.moon{
+    opacity: 0;
+}
+
+.menu-bar .bottom-content .toggle-switch{
+    position: absolute;
+    right: 0;
+    height: 100%;
+    min-width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.toggle-switch .switch{
+    position: relative;
+    height: 22px;
+    width: 40px;
+    border-radius: 25px;
+    background-color: var(--toggle-color);
+    transition: var(--tran-05);
+}
+
+.switch::before{
+    content: '';
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    background-color: var(--sidebar-color);
+    transition: var(--tran-04);
+}
+
+body.dark .switch::before{
+    left: 20px;
+} */
