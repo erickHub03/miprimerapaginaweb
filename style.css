@@ -73,6 +73,10 @@ header{
         max-width: 100%;
         flex-direction: column;
     }
+    .container h1{
+        margin: 10px;
+        padding: 20px;
+    }
 }
 
 @media(max-width: 700px){
