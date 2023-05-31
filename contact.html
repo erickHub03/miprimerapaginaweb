@@ -26,14 +26,11 @@
     
         <div class="form">
             <fieldset>
-                <form>
-                    <label id="nombre" name="nombre" for="nombre">Nombre:</label>
-                    <input class="nombre" type="text" required>
-                    <label id="email" name="email" for="email">E-mail:</label>
-                    <input class="email" type="email" required>
-                    <label id="tel" name="tel" for="tel">Telefono:</label>
-                    <input class="tel" type="tel" required>    
-                </form>
+                <form id="myForm"> <!--Este es un formulario-->
+                    <label for="email">Correo Electronico:</label>
+                    <input type="email" id="email" name="email" required>
+                    <button class="boton-enviar" type="submit">Enviar</button>
+                </form> <!--FIn del formulario--> 
             </fieldset>
         </div>
     </main>
@@ -42,5 +39,6 @@
         <h2>Este es el footer de mi pagina web</h2>
             
     </footer>
+<script src="./alerta.js"></script>
 </body>
 </html>
