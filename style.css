@@ -140,6 +140,7 @@ input {
 
 img{
     background-repeat: no-repeat;
+    background-size: cover;
     margin: 10px;
     width: 50%;
 }
@@ -171,7 +172,8 @@ footer{
 }
 
 .greeting {
-text-align: center;
+    text-align: center;
+    font-size: 40px;
 }
 
 /* .sidebar .menu-bar .mode{
