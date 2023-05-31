@@ -6,7 +6,8 @@
 --terciario:#F2A71B;
 }
 html{
-    margin: auto;
+    scroll-behavior: smooth;
+
 }
 
 body{
@@ -67,12 +68,17 @@ header{
     align-items: center;
 }
 
-
+@media(max-width: 600px){
+    .img{
+        max-width: 100%;
+    }
+}
 
 @media(max-width: 700px){
     header{
         flex-direction: column;
     }
+
 }
 
 .video{
